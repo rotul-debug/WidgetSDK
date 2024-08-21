@@ -1,0 +1,32 @@
+{
+	"widgetId": "ikea.angular.informationviewermonitor",
+	"type": "inline",
+	"targets": ["default"],
+	"author": "Felix Pettersson",
+	"framework": "angular",
+	"aotVersion": "",
+	"name": "IKEA Information Viewer/Monitor",
+	"version": "1.0",
+	"category": "application",
+	"applicationLogicalId": "lid://infor.homepages",
+	"moduleName": "widget",
+	"settings": [
+		{
+			"name": "monitors",
+			"defaultValue": "[]"
+		},
+		{
+			"name": "displayAsViewer",
+			"defaultValue": "true"
+		}
+	],
+	"localization": {
+		"en-US": {
+			"widgetTitle": "IKEA Information Viewer/Monitor",
+			"widgetDescription": "Widget for viewing and monitoring M3 data.",
+			"order": "Order",
+			"ascending": "Ascending",
+			"descending": "Descending"
+		}
+	}
+}
